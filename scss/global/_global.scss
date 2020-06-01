@@ -6,20 +6,34 @@ $padding-4: calc(4 * 1em);
 body {
     width: 100vw;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-main {
+section {
+    width: 100%;
+
     padding: $padding-2;
+    margin-bottom: calc(1 * 1em);
 
     @media only screen and(min-device-width: 768px) {
         padding: $padding-4;
     }
 }
 
-section {
-    width: 100%;
-}
-
 a {
     cursor: pointer;
+}
+
+.title-box {
+    border: 6px solid black;
+    border-left: none;
+    margin-left: -30%;
+    padding-left: 30%;
+    background: rgba(255,255,255, 0.7);
+    
+}
+
+.content p:first-of-type {
+    margin-top: calc(4 * 1em);
 }

@@ -1,0 +1,58 @@
+
+#hero {
+    background: url(assets/img/hero-bg.jpg) top no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+
+
+    .title {
+        height: 120%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 60% 20% 20%;
+        padding: calc(1 * 1em);
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 77%;
+        left: 0;
+       
+
+        @media only screen and(min-device-width: 768px) {
+            padding: $padding-4;
+        }
+
+        .logo {
+            width: 100%;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .motto {
+            display: flex;
+            justify-content: center;
+            align-items: top;
+            font-weight: 900;
+            font-size: 1em;
+            font-style: italic;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .scroll {
+            width: 20px;
+            height: 50px;
+            margin: auto;
+            .img {
+                background: url(assets/icon/scroll.png) top no-repeat;
+                background-size: cover;
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+    }
+}

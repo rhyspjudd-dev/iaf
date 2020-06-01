@@ -8,12 +8,14 @@ $button-width: 35px;
 
 
 .navbar {
-    position: relative;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
 
     .button-container {
         position: absolute;
         top: 5%;
-        right: 0;
+        right: calc(4 * 1em);
         height: $button-height;
         width: $button-width;
         cursor: pointer;

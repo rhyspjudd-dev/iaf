@@ -14,7 +14,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import 'global/_palette';
 @import 'global/_fonts';
 
+// Section
+@import 'sections/_hero';
+@import 'sections/_about';
+
 // Components
 @import 'components/_btn';
 @import 'components/_nav';
+@import 'components/_flexislider';
 @import 'components/_form';
