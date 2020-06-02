@@ -1,0 +1,23 @@
+#fund {
+    overflow: hidden;
+    .img-container {
+        width: 140%;
+        height: 300px;
+        margin-left: -30%;
+        .img {
+            background: url(assets/img/red-ferrari.jpg) right fixed no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 147%;
+        }
+    }
+
+    p strong {
+        font-weight: 900;
+        font-size: 1.8em;
+    }
+
+    ul {
+        padding-left: $padding-2 !important;
+    }
+}

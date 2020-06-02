@@ -84,5 +84,17 @@
 
     </section>
 
+    <section id="fund">
 
+        <div class="content">
+
+        <div class="img-container"><div class="img"></div></div>
+
+        <div class="title-box"><h1><?php the_field('sect_4_title'); ?></h1></div>
+
+        <p><?php the_field('sect_4_content'); ?></p>
+
+        </div>
+
+    </section>
 <?php get_footer(); ?>
