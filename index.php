@@ -97,4 +97,34 @@
         </div>
 
     </section>
+
+    <section id="products">
+
+        <div class="content">
+
+        <div class="img-container"><div class="img"></div></div>
+
+        <div class="title-box"><h1><?php the_field('sect_5_title'); ?></h1></div>
+
+        <?php if(get_field('products')): ?>
+
+        <ul>
+
+        <?php while(has_sub_field('products')): ?>
+
+            <li>
+                <h3><?php the_sub_field('product_title'); ?></h3>
+                <p><?php the_sub_field('product_desc'); ?></p>
+            </li>
+
+        <?php endwhile; ?>
+
+        </ul>
+
+        <?php endif; ?>
+
+        </div>
+
+    </section>
+
 <?php get_footer(); ?>
