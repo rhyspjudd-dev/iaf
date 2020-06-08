@@ -1,0 +1,25 @@
+#connect {
+    overflow: hidden;
+    .img-container {
+        width: 140%;
+        height: 350px;
+        margin-left: -30%;
+        .img {
+            background: url(assets/img/connect.jpg) center fixed no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 147%;
+        }
+    }
+
+    .content p:first-of-type {
+        margin-top: calc(0 * 1em);
+    }
+
+    ul {
+        margin-top: calc(4 * 1em);
+        li {
+            list-style-type: none;
+        }
+    }
+}

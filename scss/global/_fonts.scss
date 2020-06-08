@@ -1,5 +1,10 @@
 // Font Imports
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 h1 {
     font-weight: 700;
@@ -15,16 +20,19 @@ h3 {
 }
 
 p {
-    font-size: 1em;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 900;
+    font-size: 1.25em;
+    font-family: 'Lato', sans-serif;
     line-height: 1.4em;
 }
 
 ul li {
-    font-size: 1em;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 900;
+    font-size: 1.25em;
+    //font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     line-height: 1.4em;
+}
+
+li p {
+    font-size: 1em;   
 }
 

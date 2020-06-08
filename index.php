@@ -12,7 +12,7 @@
 
         <div class="title">
 
-        <div class="logo">
+        <div class="logo animate__animated animate__backInUp">
 
         <?php if( get_field('logo') ): ?>
         <img src="<?php the_field('logo'); ?>" />
@@ -22,7 +22,7 @@
 
         <div class="motto"><?php the_field('motto'); ?></div> 
 
-        <div class="scroll"><div class="img"></div></div> 
+        <div class="scroll animate__animated animate__backInUp animate__delay-1s"><div class="img"></div></div> 
 
         </div> 
     
@@ -122,6 +122,54 @@
         </ul>
 
         <?php endif; ?>
+
+        <div class="sub-contact">
+            <div class="phone"><div class="img"></div><h3><?php the_field('phone_num'); ?></h3></div>
+            <div class="mail"><div class="img"></div><h3><?php the_field('mail_add'); ?></h3></div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <section id="tc">
+
+        <div class="content">
+
+        <div class="img-container"><div class="img"></div></div>
+
+        <div class="title-box"><h1><?php the_field('sect_6_title'); ?></h1></div>
+
+        <p><?php the_field('sect_6_content'); ?></p>
+
+        </div>
+
+    </section>
+
+    <section id="connect">
+
+        <div class="content">
+
+        <div class="img-container"><div class="img"></div></div>
+
+        <div class="title-box"><h1><?php the_field('sect_7_title'); ?></h1></div>
+
+        <?php if(get_field('sect_7_content')): ?>
+
+            <ul>
+
+            <?php while(has_sub_field('sect_7_content')): ?>
+
+                <li>
+                    <h3><?php the_sub_field('title'); ?></h3>
+                    <p><?php the_sub_field('text'); ?></p>
+                </li>
+
+            <?php endwhile; ?>
+
+            </ul>
+
+            <?php endif; ?>
 
         </div>
 

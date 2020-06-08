@@ -1,4 +1,9 @@
+<footer>
 
+<p>	&copy; Imagine Asset Finance</p>
+<p>	Coded with &hearts; <a href="http://rpj-dev.com/">Rhys P. Judd</a> </p>
+
+</footer>
 <!-- jquery-3.5.0.min.js -->
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(). '/vendor/js/jquery-3.5.0.min.js' ?>"></script>
 

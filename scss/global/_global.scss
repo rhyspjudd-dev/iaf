@@ -25,6 +25,11 @@ a {
     cursor: pointer;
 }
 
+a.alta {
+    text-decoration: underline !important;
+    color: gray !important;
+}
+
 .title-box {
     border: 6px solid black;
     border-left: none;
@@ -36,4 +41,20 @@ a {
 
 .content p:first-of-type {
     margin-top: calc(4 * 1em);
+}
+
+footer {
+    height: 80px;
+    background: black;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.6em;
+    a {
+        font-size: 0.8em;
+        color: white;
+        border-bottom: 1px solid white;
+    }
 }
