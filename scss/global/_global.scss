@@ -39,6 +39,33 @@ a.alta {
     
 }
 
+.quoter {
+    position: fixed;
+    left: 0;
+    top: 5%;
+    z-index: 200;
+    padding: 0 calc(2 * 1em);
+    color: white;
+    border: 2px solid white;
+    border-left: none;
+    font-size: 0.8em;
+    background: rgba(149, 52, 64, 0.7);
+    line-height: 0;
+    .phone {
+        display: inline-grid;
+        grid-template-columns: 15% 85%;
+        align-items: center;
+        width: 100%;
+    
+        .img {
+            background: url(assets/icon/phone-white.svg) top left no-repeat;
+            background-size: cover;
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
 .content p:first-of-type {
     margin-top: calc(4 * 1em);
 }

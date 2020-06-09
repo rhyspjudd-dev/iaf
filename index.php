@@ -10,7 +10,7 @@
     <section id="hero">
     <?php include ("component/nav.php"); ?>
 
-    <div class="quoter">
+    <div class="quoter animate__animated animate__slideInLeft animate__delay-2s">
     <h3>Get a quote now</h3>
     <div class="phone"><div class="img"></div><h3><?php the_field('phone_num'); ?></h3></div>
     </div>
