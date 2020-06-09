@@ -11,12 +11,12 @@
         height: 120%;
         width: 100%;
         display: grid;
-        grid-template-rows: 60% 20% 20%;
+        grid-template-rows: 60% 20% 20% 10%;
         padding: calc(1 * 1em);
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 77%;
+        top: 60%;
         left: 0;
        
 
@@ -25,10 +25,13 @@
         }
 
         .logo {
-            width: 100%;
+            width: 85%;
+            margin: auto;
+            
             img {
                 height: 100%;
                 width: 100%;
+                border-top-left-radius: 100px;
             }
         }
 
@@ -38,8 +41,12 @@
             align-items: top;
             font-weight: 900;
             font-size: 1em;
-            //font-style: italic;
-            font-family: 'Lato', sans-serif;
+            color: gray;
+            font-family: 'Josefin Sans', sans-serif; 
+            span {
+                color: #953440;
+                font-weight: 900;
+            }
         }
 
         .scroll {
@@ -51,6 +58,45 @@
                 background-size: cover;
                 height: 100%;
                 width: 100%;
+            }
+        }
+
+        .sub-contact {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1em;
+
+            h3 {
+                font-size: 0.6em;
+            }
+        }
+    
+        .phone {
+            display: inline-grid;
+            grid-template-columns: 20% 53%;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+        
+            .img {
+                background: url(assets/icon/phone.svg) top left no-repeat;
+                background-size: cover;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    
+        .mail {
+            display: inline-grid;
+            grid-template-columns: 20% 53%;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            .img {
+                background: url(assets/icon/mail.svg) top left no-repeat;
+                background-size: cover;
+                width: 25px;
+                height: 25px;
             }
         }
 

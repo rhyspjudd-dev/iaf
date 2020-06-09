@@ -10,9 +10,14 @@
     <section id="hero">
     <?php include ("component/nav.php"); ?>
 
+    <div class="quoter">
+    <h3>Get a quote now</h3>
+    <div class="phone"><div class="img"></div><h3><?php the_field('phone_num'); ?></h3></div>
+    </div>
+
         <div class="title">
 
-        <div class="logo animate__animated animate__backInUp">
+        <div class="logo">
 
         <?php if( get_field('logo') ): ?>
         <img src="<?php the_field('logo'); ?>" />
@@ -20,9 +25,12 @@
 
         </div>
 
-        <div class="motto"><?php the_field('motto'); ?></div> 
-
-        <div class="scroll animate__animated animate__backInUp animate__delay-1s"><div class="img"></div></div> 
+        <div class="motto">Imagine it was<span>&nbsp;this easy</span><?php // the_field('motto'); ?></div> 
+        <div class="sub-contact">
+            <div class="phone"><div class="img"></div><h3><?php the_field('phone_num'); ?></h3></div>
+            <div class="mail"><div class="img"></div><h3><?php the_field('mail_add'); ?></h3></div>
+        </div>
+        <div class="scroll"><div class="img"></div></div> 
 
         </div> 
     
