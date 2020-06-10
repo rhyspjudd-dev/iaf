@@ -86,3 +86,30 @@ footer {
         border-bottom: 1px solid white;
     }
 }
+
+.enquire {
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    top: 86%;
+    right: calc(1 * 1em);
+    background: rgba(232, 236, 241, 0.6);
+    padding: 20px;
+    z-index: 75;
+    border-radius: 100px;
+    text-align: center;
+    .img {
+
+        background: url(assets/icon/enquire.svg) top left no-repeat;
+        background-size: cover;
+        height: 64%;
+        width: 65%;
+        margin-top: -10px;
+        margin: auto;
+    }
+    span {
+        font-size: 0.6em !important;
+        margin-top: 5px;
+        color: #953440;
+    }
+}
