@@ -40,7 +40,7 @@
             justify-content: center;
             align-items: top;
             font-weight: 900;
-            font-size: 1em;
+            font-size: 1.25em;
             color: gray;
             font-family: 'Josefin Sans', sans-serif; 
             span {
@@ -65,6 +65,8 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-gap: 1em;
+            width: 80%;
+            margin: auto;
 
             h3 {
                 font-size: 0.6em;
