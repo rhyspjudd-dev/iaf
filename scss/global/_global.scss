@@ -113,3 +113,7 @@ footer {
         color: #953440;
     }
 }
+
+a.enquire::after {
+    display: none;
+}
