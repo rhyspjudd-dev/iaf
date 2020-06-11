@@ -1,0 +1,66 @@
+#ex1 {
+    height: 80vh;
+    padding-top: 0;
+    position: relative;
+    
+}
+
+.form {
+    margin-top: 45px;
+}
+
+span.wpforms-required-label {
+    color: #953440;
+}
+
+label {
+    font-size: 1em;
+}
+
+#ex1 header {
+    background: #953440;
+    color: white;
+    padding: calc(1 * 1em) calc(2 * 1em);
+    margin-bottom: 50px;
+    position: absolute;
+    left: 0;
+    border-bottom: 1px solid black;
+    font-family: 'Archivo Black', sans-serif;
+    
+}
+
+.wpforms-field-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 0.8em;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+label.wpforms-field-label {
+    display: block;
+}
+
+.wpforms-field-container input {
+    width: 80% !important;  
+    height: 30px; 
+}
+
+label.wpforms-field-label {
+    margin-bottom: 4px;
+    width: 80%;
+}
+
+textarea#wpforms-5-field_2 {
+    height: 100px;
+    width: 80%;
+    margin-bottom: 8px;
+}
+
+select#wpforms-5-field_5 {
+    width: 80%;
+    height: 30px;
+}
+
+.wpforms-field.wpforms-field-hp {
+    display: none;
+}

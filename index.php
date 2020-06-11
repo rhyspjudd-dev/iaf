@@ -35,6 +35,7 @@
         <a href="#ex1" rel="modal:open" class="enquire"><div class="img"></div><span>Enquire!</span></a>
 
         <div id="ex1" class="modal">
+        <header>Please fill out the form, we will be in touch shortly.</header>
         <div class="form">
         <?php echo do_shortcode('[wpforms id="5" title="false" description="false"]'); ?>
         </div>
