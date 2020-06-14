@@ -11,4 +11,12 @@
             height: 147%;
         }
     }
+    .content p:first-of-type {
+        @media (min-width: 768px) and (max-width: 1024px) {
+  
+            margin-top: calc(6 * 1em);
+            
+          }
+    }
+
 }

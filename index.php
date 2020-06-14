@@ -8,6 +8,7 @@
 <?php get_header(); ?>
 
     <section id="hero">
+        
     <?php include ("component/nav.php"); ?>
 
     <div class="quoter animate__animated animate__slideInLeft animate__delay-2s">
@@ -26,11 +27,11 @@
         </div>
 
         <div class="motto">Imagine it was<span>&nbsp;this easy</span><?php // the_field('motto'); ?></div> 
-        <div class="sub-contact">
+        <div class="sub-contact animate__animated animate__flipInX">
             <div class="phone"><div class="img"></div><h3><?php the_field('phone_num'); ?></h3></div>
             <div class="mail"><div class="img"></div><h3><?php the_field('mail_add'); ?></h3></div>
         </div>
-        <div class="scroll"><div class="img"></div></div> 
+        <div class="scroll animate__animated animate__bounce animate__delay-3s"><div class="img"></div></div> 
 
         <a href="#ex1" rel="modal:open" class="enquire"><div class="img"></div><span>Enquire!</span></a>
 

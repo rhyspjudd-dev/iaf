@@ -33,7 +33,7 @@ label {
     display: grid;
     grid-template-rows: 1fr;
     grid-gap: 0.8em;
-    font-family: 'Josefin Sans', sans-serif; 
+    font-family: 'Archivo Black', sans-serif;
 }
 
 label.wpforms-field-label {
@@ -41,23 +41,23 @@ label.wpforms-field-label {
 }
 
 .wpforms-field-container input {
-    width: 80% !important;  
+    width: 90% !important;  
     height: 30px; 
 }
 
 label.wpforms-field-label {
     margin-bottom: 4px;
-    width: 80%;
+    width: 90%;
 }
 
 textarea#wpforms-5-field_2 {
     height: 100px;
-    width: 80%;
+    width: 90%;
     margin-bottom: 8px;
 }
 
 select#wpforms-5-field_5 {
-    width: 80%;
+    width: 90%;
     height: 30px;
 }
 

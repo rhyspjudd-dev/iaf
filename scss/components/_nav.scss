@@ -7,6 +7,12 @@ $button-height: 27px;
 $button-width: 35px;
 
 
+.desk-nav { display: none; }
+
+.mob-nav a {
+  color: white;
+}
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -21,6 +27,12 @@ $button-width: 35px;
         cursor: pointer;
         z-index: 100;
         transition: opacity .25s ease;
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+  
+          right: calc(6 * 1em);
+          
+        }
         
         &:hover {
           opacity: .7;

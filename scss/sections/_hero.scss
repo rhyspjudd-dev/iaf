@@ -53,6 +53,12 @@
             width: 20px;
             height: 50px;
             margin: auto;
+
+            @media (min-width: 768px) and (max-width: 1024px) {
+  
+                margin-top: 50px;
+                
+            }
             .img {
                 background: url(assets/icon/scroll.png) top no-repeat;
                 background-size: cover;
@@ -68,8 +74,21 @@
             width: 80%;
             margin: auto;
 
+
+            @media (min-width: 768px) and (max-width: 1024px) {
+  
+                width: 100%;
+                
+            }
+
             h3 {
                 font-size: 0.6em;
+
+                @media (min-width: 768px) and (max-width: 1024px) {
+  
+                    font-size: 1em;
+
+                  }
             }
         }
     
@@ -85,6 +104,13 @@
                 background-size: cover;
                 width: 20px;
                 height: 20px;
+
+                @media (min-width: 768px) and (max-width: 1024px) {
+  
+                    width: 30px;
+                    height: 30px;
+
+                  }
             }
         }
     
@@ -99,6 +125,13 @@
                 background-size: cover;
                 width: 25px;
                 height: 25px;
+
+                @media (min-width: 768px) and (max-width: 1024px) {
+  
+                    width: 35px;
+                    height: 35px;
+
+                  }
             }
         }
 

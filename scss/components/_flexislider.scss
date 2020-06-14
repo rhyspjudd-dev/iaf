@@ -11,10 +11,25 @@
 .slider-img {
     height: 210px;
     width: 100%;
+    @media (min-width: 768px) and (max-width: 1024px) {
+  
+        width: 50%;
+        margin: auto;
+        
+      }
     img {
         height: 100%;
         width: 100%;
     }
+}
+
+.slide p {
+    @media (min-width: 768px) and (max-width: 1024px) {
+  
+        width: 70%;
+        margin: auto;
+        
+      }
 }
 
 .flex-control-paging li a {

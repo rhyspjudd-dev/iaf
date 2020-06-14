@@ -14,12 +14,22 @@
 
     .content p:first-of-type {
         margin-top: calc(0 * 1em);
+
+        
     }
 
     ul {
         margin-top: calc(4 * 1em);
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+  
+            margin-top: calc(8 * 1em);
+            
+          }
+          
         li {
             list-style-type: none;
         }
+
     }
 }
