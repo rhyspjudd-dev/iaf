@@ -6,7 +6,7 @@
 }
 
 .form {
-    margin-top: 45px;
+    margin-top: 42px;
 }
 
 span.wpforms-required-label {
@@ -21,7 +21,8 @@ label {
     background: #953440;
     color: white;
     padding: calc(1 * 1em) calc(2 * 1em);
-    margin-bottom: 50px;
+
+    width: 100%;
     position: absolute;
     left: 0;
     border-bottom: 1px solid black;
@@ -41,26 +42,94 @@ label.wpforms-field-label {
 }
 
 .wpforms-field-container input {
-    width: 90% !important;  
     height: 30px; 
 }
 
 label.wpforms-field-label {
     margin-bottom: 4px;
     width: 90%;
+    font-size: 0.8em;
 }
 
 textarea#wpforms-5-field_2 {
     height: 100px;
-    width: 90%;
+    //width: 90%;
     margin-bottom: 8px;
 }
 
 select#wpforms-5-field_5 {
-    width: 90%;
+    //width: 90%;
     height: 30px;
 }
 
 .wpforms-field.wpforms-field-hp {
     display: none;
 }
+
+
+// Contact Form 
+
+
+.wpforms-field-container input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    color: #313131;
+    font-size: 0.6em;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 8px rgba( 0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    border-radius: 16px 0px 16px 0px;
+    transition: 0.4s;
+  }
+  .wpforms-field-container input:focus {
+    box-shadow: 0px 0px 16px rgba( 0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 0px 16px 0px 16px;
+  }
+
+  select#wpforms-5-field_5 {
+    display: block;
+    width: 100%;
+    height: 39px;
+    appearance: none;
+    background: none;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.25);
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 16px 0px 16px 0px;
+    transition: 0.4s;
+  }
+  select#wpforms-5-field_5:focus {
+    box-shadow: 0px 0px 16px rgba( 0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 0px 16px 0px 16px;
+  }
+
+  textarea#wpforms-5-field_2 { 
+    display: block;
+    width: 100%;
+    padding: 15px;
+    color: #313131;
+    font-size: 0.6em;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 8px rgba( 0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    border-radius: 16px 0px 16px 0px;
+    transition: 0.4s;
+  }
+  textarea#wpforms-5-field_2:focus {
+    box-shadow: 0px 0px 16px rgba( 0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 0px 16px 0px 16px;
+  }

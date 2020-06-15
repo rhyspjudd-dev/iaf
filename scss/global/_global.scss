@@ -36,7 +36,7 @@ a.alta {
     margin-left: -30%;
     padding-left: 30%;
     background: rgba(255,255,255, 0.7);
-    
+    box-shadow: 0px 0px 8px rgba( 0, 0, 0, 0.25);
 }
 
 .quoter {
@@ -52,6 +52,7 @@ a.alta {
     background: rgba(149, 52, 64, 0.7);
     border-top-right-radius: 46px;
     line-height: 0;
+    box-shadow: 0px 0px 8px rgba( 0, 0, 0, 0.25);
     .phone {
         display: inline-grid;
         grid-template-columns: 15% 85%;
@@ -88,27 +89,28 @@ footer {
 }
 
 .enquire {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     position: fixed;
     top: 87%;
-    right: calc(1.5 * 1em);
+    right: calc(1 * 1em);
     background: rgba(232, 236, 241, 0.6);
-    padding: 20px;
+    padding: 8px;
     z-index: 75;
     border-radius: 100px;
     text-align: center;
+    box-shadow: 0px 0px 8px rgba( 0, 0, 0, 0.25);
     .img {
 
         background: url(assets/icon/enquire.svg) top left no-repeat;
-        background-size: cover;
-        height: 64%;
-        width: 65%;
+        background-size: contain;
+        height: 60%;
+        width: 60%;
         margin-top: -10px;
         margin: auto;
     }
     span {
-        font-size: 0.6em !important;
+        font-size: 0.4em !important;
         margin-top: 5px;
         color: #953440;
     }
