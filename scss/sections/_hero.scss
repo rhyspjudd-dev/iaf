@@ -6,6 +6,11 @@
     width: 100vw;
     position: relative;
 
+    @media only screen and(min-device-width: 1024px) {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+    }
 
     .title {
         height: 120%;
@@ -22,17 +27,36 @@
 
         @media only screen and(min-device-width: 768px) {
             padding: $padding-4;
+            grid-template-rows: 60% 30% 15% 5%;
+        }
+
+        @media only screen and(min-device-width: 1024px) {
+            grid-template-rows: 90% 10%;
+            width: 45%;
+            height: 64%;
+            position: unset;
+            background: white;
+            box-shadow: 0px 0px 8px rgba( 0, 0, 0, 0.25);
         }
 
         .logo {
             width: 85%;
             margin: auto;
+
+            @media only screen and(min-device-width: 1024px) {
+                width: auto;
+                height: auto;
+            }
             
             img {
                 height: 100%;
                 width: 100%;
-                border-top-left-radius: 100px;
+                //border-top-left-radius: 100px;
                 box-shadow: 0px 0px 8px rgba( 0, 0, 0, 0.25);
+
+                @media only screen and(min-device-width: 1024px) {
+                    box-shadow: none;
+                }
             }
         }
 
@@ -60,6 +84,12 @@
                 margin-top: 50px;
                 
             }
+
+            @media only screen and(min-device-width: 1024px) {
+                display: none;
+            }
+
+
             .img {
                 background: url(assets/icon/scroll.png) top no-repeat;
                 background-size: cover;
@@ -74,6 +104,10 @@
             grid-gap: 1em;
             width: 100%;
             margin: auto;
+
+            @media only screen and(min-device-width: 1024px) {
+                display: none;
+            }
 
 
             h3 {

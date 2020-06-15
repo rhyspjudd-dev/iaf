@@ -28,6 +28,12 @@
         border-top: 2px solid lightgray;
         margin-top: calc(2 * 1em);
         padding-top: calc(2 * 1em);
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+  
+            grid-template-columns: repeat(2 ,1fr);
+            
+          }
     }
 
     .phone {

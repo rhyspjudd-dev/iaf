@@ -18,7 +18,7 @@
 
         <div class="title">
 
-        <div class="logo">
+        <div class="logo animate__animated animate__flipInX animate__delay-1s">
 
         <?php if( get_field('logo') ): ?>
         <img src="<?php the_field('logo'); ?>" />
@@ -26,14 +26,14 @@
 
         </div>
 
-        <div class="motto">Imagine it was<span>&nbsp;this easy</span><?php // the_field('motto'); ?></div> 
-        <div class="sub-contact animate__animated animate__flipInX">
+        <div class="motto animate__animated animate__flipInX animate__delay-2s">Imagine it was<span>&nbsp;this easy</span><?php // the_field('motto'); ?></div> 
+        <div class="sub-contact animate__animated animate__flipInX animate__delay-3s">
             <div class="phone"><div class="img"></div><h3><?php the_field('phone_num'); ?></h3></div>
             <div class="mail"><div class="img"></div><h3><?php the_field('mail_add'); ?></h3></div>
         </div>
-        <div class="scroll animate__animated animate__bounce animate__delay-3s"><div class="img"></div></div> 
+        <div class="scroll animate__animated animate__bounce animate__delay-2s"><div class="img"></div></div> 
 
-        <a href="#ex1" rel="modal:open" class="enquire"><div class="img"></div><span>Enquire!</span></a>
+        <a href="#ex1" rel="modal:open" class="enquire animate__animated animate__fadeInUpBig animate__delay-3s"><div class="img"></div><span>Enquire!</span></a>
 
         <div id="ex1" class="modal">
         <header>Please fill out the form, we will be in touch shortly.</header>
@@ -54,8 +54,10 @@
             <div class="img-container"><div class="img"></div></div>
 
             <div class="title-box"><h1><?php the_field('sect_2_title'); ?></h1></div>
-
+            <div class="text">
             <p><?php the_field('sect_2_content'); ?></p>
+            </div>
+            
 
             </div>
 
