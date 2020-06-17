@@ -101,6 +101,36 @@
 
                 </div>
 
+                <div class="assets-grid">
+
+                <?php if( have_rows('boxes') ): ?>
+
+                    <ul class="slides">
+
+                    <?php while( have_rows('boxes') ): the_row(); 
+
+                        // vars
+                        $boxImg = get_sub_field('box_img');
+                        $boxTitle = get_sub_field('box_title');
+                        $boxText = get_sub_field('box_text');
+
+                        ?>
+
+                        <li class="slide">
+                            <div class="slider-img"><img src="<?php echo $boxImg['url']; ?>" alt="<?php echo $boxImg['alt'] ?>" /></div>
+                            <h3><?php echo $boxTitle; ?></h3>
+                            <p><?php echo $boxText; ?></p>
+                        </li>
+
+                    <?php endwhile; ?>
+
+                    </ul>
+
+                    <?php endif; ?>
+
+
+                </div>
+
             </div>
 
     </section>

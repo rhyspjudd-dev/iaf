@@ -1,6 +1,12 @@
 
 .flexslider {
     margin: calc(4 * 1em) 0;
+
+    @media (min-width: 1024px) {
+  
+        display: none;
+        
+      }
 }
 
 .flexslider .slides {
