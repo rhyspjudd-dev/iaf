@@ -105,7 +105,7 @@
 
                 <?php if( have_rows('boxes') ): ?>
 
-                    <ul class="slides">
+                    <ul class="boxes">
 
                     <?php while( have_rows('boxes') ): the_row(); 
 
@@ -116,8 +116,8 @@
 
                         ?>
 
-                        <li class="slide">
-                            <div class="slider-img"><img src="<?php echo $boxImg['url']; ?>" alt="<?php echo $boxImg['alt'] ?>" /></div>
+                        <li class="box">
+                            <div class="box-img"><img src="<?php echo $boxImg['url']; ?>" alt="<?php echo $boxImg['alt'] ?>" /></div>
                             <h3><?php echo $boxTitle; ?></h3>
                             <p><?php echo $boxText; ?></p>
                         </li>
