@@ -55,6 +55,7 @@
 
             <div class="title-box"><h1><?php the_field('sect_2_title'); ?></h1></div>
             <div class="text">
+            <h1><?php the_field('sect_2_title'); ?></h1>
             <p><?php the_field('sect_2_content'); ?></p>
             </div>
             
@@ -97,36 +98,6 @@
                 </ul>
 
                 <?php endif; ?>
-
-
-                </div>
-
-                <div class="assets-grid">
-
-                <?php if( have_rows('boxes') ): ?>
-
-                    <ul class="boxes">
-
-                    <?php while( have_rows('boxes') ): the_row(); 
-
-                        // vars
-                        $boxImg = get_sub_field('box_img');
-                        $boxTitle = get_sub_field('box_title');
-                        $boxText = get_sub_field('box_text');
-
-                        ?>
-
-                        <li class="box">
-                            <div class="box-img"><img src="<?php echo $boxImg['url']; ?>" alt="<?php echo $boxImg['alt'] ?>" /></div>
-                            <h3><?php echo $boxTitle; ?></h3>
-                            <p><?php echo $boxText; ?></p>
-                        </li>
-
-                    <?php endwhile; ?>
-
-                    </ul>
-
-                    <?php endif; ?>
 
 
                 </div>
