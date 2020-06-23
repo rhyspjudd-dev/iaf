@@ -114,7 +114,10 @@
 
         <div class="title-box"><h1><?php the_field('sect_4_title'); ?></h1></div>
 
-        <p><?php the_field('sect_4_content'); ?></p>
+        <div class="text">
+            <h1><?php the_field('sect_4_title'); ?></h1>
+            <p><?php the_field('sect_4_content'); ?></p>
+        </div>
 
         </div>
 

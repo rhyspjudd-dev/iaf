@@ -25,8 +25,21 @@ section {
 
     @media only screen and(min-device-width: 1024px) {
         margin-bottom: calc(0 * 1em);
+        height: 100vh;
+        position: relative;
+        //border-top: 7px solid black;
     }
 }
+
+section:nth-child(1) {
+    border-top: none;
+}
+
+section:nth-child(odd) {
+    background-color: #FBFBFB;
+}
+
+
 
 a {
     cursor: pointer;
@@ -68,8 +81,9 @@ a.alta {
             left: 50%;
             transform: translateX(-50%);
             width: 60%;
+            top: 0;
             text-align: center;
-            margin-top: -1%;
+            //margin-top: -1%;
             margin-left: 0;
             padding-left: 0;
         }
