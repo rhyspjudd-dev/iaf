@@ -33,7 +33,7 @@
             </div>
             <div class="scroll animate__animated animate__bounce animate__delay-2s"><div class="img"></div></div> 
 
-            <a href="#ex1" rel="modal:open" class="enquire animate__animated animate__fadeInUpBig animate__delay-3s"><div class="img"></div><span>Enquire!</span></a>
+            <a href="#ex1" rel="modal:open" class="enquire animate__animated animate__slide-downInUpBig animate__delay-3s"><div class="img"></div><span>Enquire!</span></a>
 
             <div id="ex1" class="modal">
             <header>Please fill out the form, we will be in touch shortly.</header>
@@ -47,14 +47,14 @@
     
     </section>
 
-    <section id="about">
+    <section id="about" data-aos="fade">
 
             <div class="content">
 
-            <div class="img-container" data-aos="slide-left"><div class="img"></div></div>
+            <div class="img-container"><div class="img"></div></div>
 
-            <div class="title-box" data-aos="slide-down"><h1><?php the_field('sect_2_title'); ?></h1></div>
-            <div class="text" data-aos="slide-down">
+            <div class="title-box"><h1><?php the_field('sect_2_title'); ?></h1></div>
+            <div class="text">
             <h1><?php the_field('sect_2_title'); ?></h1>
             <p><?php the_field('sect_2_content'); ?></p>
             </div>
@@ -64,7 +64,7 @@
 
     </section>
 
-    <section id="assets" data-aos="fade">
+    <section id="assets">
 
         <div class="content">
 
@@ -106,15 +106,15 @@
 
     </section>
 
-    <section id="fund">
+    <section id="fund" data-aos="fade">
 
         <div class="content">
 
-        <div class="img-container" data-aos="slide-left"><div class="img"></div></div>
+        <div class="img-container" ><div class="img"></div></div>
 
         <div class="title-box"><h1><?php the_field('sect_4_title'); ?></h1></div>
 
-        <div class="text" data-aos="slide-down">
+        <div class="text">
             <h1><?php the_field('sect_4_title'); ?></h1>
             <p><?php the_field('sect_4_content'); ?></p>
         </div>
@@ -157,15 +157,15 @@
 
     </section>
 
-    <section id="tc">
+    <section id="tc" data-aos="fade">
 
         <div class="content">
 
-        <div class="img-container" data-aos="slide-left"><div class="img"></div></div>
+        <div class="img-container"><div class="img"></div></div>
 
-        <div class="title-box" data-aos="slide-down"><h1><?php the_field('sect_6_title'); ?></h1></div>
+        <div class="title-box"><h1><?php the_field('sect_6_title'); ?></h1></div>
 
-        <p class="mob-text" data-aos="slide-down"><?php the_field('sect_6_content'); ?></p>
+        <p class="mob-text"><?php the_field('sect_6_content'); ?></p>
 
         <div class="text" data-aos="slide-down">
             <h1><?php the_field('sect_6_title'); ?></h1>
@@ -176,17 +176,17 @@
 
     </section>
 
-    <section id="connect">
+    <section id="connect" data-aos="fade">
 
         <div class="content">
 
-        <div class="img-container" data-aos="slide-left"><div class="img"></div></div>
+        <div class="img-container"><div class="img"></div></div>
 
         <div class="title-box" ><h1><?php the_field('sect_7_title'); ?></h1></div>
 
         <?php if(get_field('sect_7_content')): ?>
            
-            <div class="desk-cont" data-aos="slide-right">
+            <div class="desk-cont">
 
             <h1 class="title-inner"><?php the_field('sect_7_title'); ?></h1>
             <ul>

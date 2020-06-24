@@ -1,7 +1,7 @@
     
     // Custom gsap
 
-    // Section fadein
+    // Section slide-downin
 
     /*
     gsap.from("section", {
