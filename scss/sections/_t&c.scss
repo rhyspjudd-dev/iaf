@@ -1,9 +1,59 @@
 #tc {
     overflow: hidden;
+
+    .text h1 { display: none; }
+
+    .text { display: none; }
+
+    @media only screen and(min-device-width: 1024px) {
+
+        .mob-text {
+            display: none;
+        }
+
+        .text {
+            display: block;
+        }
+
+         p:first-of-type {
+            margin-top: calc(0 * 1em) !important;
+        }
+
+        padding-top: 0;
+
+        .title-box { 
+            display: none;
+        }
+
+        .content .text {
+            border: 7px solid black;
+            border-top: none;
+            padding: calc(2 * 1em);
+            margin: 0 0 0 calc(2 * 1em);
+
+            h1 {
+                display: block;
+            }
+        }
+
+    }
+
     .img-container {
         width: 140%;
         height: 350px;
         margin-left: -30%;
+
+        @media only screen and(min-device-width: 1024px) {
+            width: 130%;
+            height: 114%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 135px;
+
+
+        }
+
         .img {
             background: url(assets/img/t&c.jpg) right fixed no-repeat;
             background-size: cover;

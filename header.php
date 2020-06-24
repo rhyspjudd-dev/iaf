@@ -14,6 +14,8 @@
     <!-- font-awesome 5.13.0 -->
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/vendor/css/fontawesome.min.css' ?>"/>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title><?php wp_title(''); ?></title>
     
 </head>
