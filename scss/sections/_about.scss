@@ -1,12 +1,17 @@
 #about {
     padding-top: 50vh;
     overflow: hidden;
+    
 
     .text h1 { display: none; }
 
+    @media screen and (min-width: 1400px) {
+        height: 100vh !important;
+    }
+
     @media only screen and(min-device-width: 1024px) {
         padding-top: 0;
-
+        height: auto;
         .title-box { 
             display: none;
         }

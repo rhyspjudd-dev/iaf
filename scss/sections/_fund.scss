@@ -5,8 +5,13 @@
         display: none;
     }
 
+    @media screen and (min-width: 1400px) {
+        height: 100vh !important;
+    }
+
     @media only screen and(min-device-width: 1024px) {
         padding-top: 0;
+        height: auto;
 
         .title-box { 
             display: none;
@@ -14,7 +19,7 @@
 
         .content .text {
             border: 7px solid black;
-            border-top: none;
+            //border-top: none;
             padding: calc(2 * 1em);
             margin: 0 0 0 calc(2 * 1em);
 
