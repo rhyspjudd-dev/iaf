@@ -170,8 +170,9 @@
         <div class="text" data-aos="slide-down">
             <h1><?php the_field('sect_6_title'); ?></h1>
             <div class="da-txt"><p><?php the_field('sect_6_content'); ?></p></div>
+            <button><a href="https://www.afsuk.com/asset-finance-solutions/contact/complaints-procedure/" target="_blank">Complaint Procedure</a></button>
         </div>
-
+        <button class="mob-btn"><a href="https://www.afsuk.com/asset-finance-solutions/contact/complaints-procedure/" target="_blank">Complaint Procedure</a></button>
         </div>
 
     </section>
@@ -201,6 +202,8 @@
 
             </ul>
 
+            <button class="contact-btn"><a href="#ex1" rel="modal:open">Get in touch!</a></button>
+
             </div>
 
             <div class="mob-cont">
@@ -216,6 +219,8 @@
             <?php endwhile; ?>
 
             </ul>
+
+            <button><a href="#ex1" rel="modal:open">Get in touch!</a></button>
 
             </div>
 
