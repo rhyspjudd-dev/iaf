@@ -166,11 +166,19 @@
         <div class="title-box"><h1><?php the_field('sect_6_title'); ?></h1></div>
 
         <p class="mob-text"><?php the_field('sect_6_content'); ?></p>
+        <p class="mob-text">Imagine
+Asset Finance Limited is an appointed representative of AFS Compliance Ltd which is authorised and
+regulated by the Financial Conduct Authority under number 625035 Imagine Asset Finance Limited
+Always aims to provide you with the Highest Level of Service, but if you do have a complaint, please let us know <a href="https://www.afsuk.com/asset-finance-solutions/contact/complaints-procedure/">here</a>.</p>
 
         <div class="text" data-aos="slide-down">
             <h1><?php the_field('sect_6_title'); ?></h1>
-            <div class="da-txt"><p><?php the_field('sect_6_content'); ?></p></div>
-            <button><a href="https://www.afsuk.com/asset-finance-solutions/contact/complaints-procedure/" target="_blank">Complaint Procedure</a></button>
+            <div class="da-txt"><p><?php the_field('sect_6_content'); ?></p>
+            <p>Imagine
+Asset Finance Limited is an appointed representative of AFS Compliance Ltd which is authorised and
+regulated by the Financial Conduct Authority under number 625035 Imagine Asset Finance Limited
+Always aims to provide you with the Highest Level of Service, but if you do have a complaint, please let us know <a href="https://www.afsuk.com/asset-finance-solutions/contact/complaints-procedure/">here</a>.</p>
+            </div>
         </div>
 
         </div>
